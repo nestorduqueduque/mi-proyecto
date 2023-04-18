@@ -1,21 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nombre Apellido</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nestor Duque</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="contenedor">
     <header>
-        <a href="#inicio">Tu nombre</a>     
+      <section id="inicio" class="contenedor-header">
+        <div class="header">
+          <div class="logo-eidos">
+            <img src="img/eidos-logo.jpg" alt="" />
+          </div>
+          <div class="texto-header">
+            <a href="#inicio">Inicio</a>
+            <a href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </section>
     </header>
-
-    <!-- La estructura básica y la vinculación con CSS estan listas. A codear! 💪  -->
-    <!-- En este archivo escriban su HTML -->
-
-</body>
+    <main class="contenedor">
+      <section class="contenedor-main">
+        <div class="perfil">
+          <div class="perfil-imagen">
+            <img src="img/imagen-perfil.jpg" alt="" />
+          </div>
+          <div class="perfil-texto">
+            <h1>Hola! Soy Nestor</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+              culpa quam quibusdam quasi officiis debitis tenetur est ipsum
+              natus unde laboriosam suscipit omnis ab fuga quas, deserunt itaque
+              ipsam. Dolor? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Expedita ex ab rem officia autem reiciendis, id asperiores
+              eius commodi, totam ipsa sequi pariatur nesciunt, corporis
+              repellat porro nostrum ratione unde.
+            </p>
+          </div>
+          <div class="perfil-boton">
+            <a href="/Hoja de Vida Lic. Nestor Duque.pdf" download=""
+              ><button style="cursor: pointer" class="boton">
+                Descargar mi CV
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="hablemos">
+          <div class="hablemos-texto">
+            <h1>Hablemos!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Reprehenderit eos laboriosam quaerat, eum suscipit minus placeat
+              quasi repellat dolorum sint fugit sapiente sequi provident non
+              magni illum eveniet in nisi?
+            </p>
+          </div>
+        </div>
+        <div id="contacto" class="contacto-contenedor">
+          <div class="contacto">
+            <a
+              href="mailto:nestorduqueduque@gmail.com?subject=Asunto del correo&body=Cuerpo del correo."
+            >
+              <img class="imagen-contacto" src="img/mail.png" alt="" />
+            </a>
+            <a
+              href="https://github.com/nestorduqueduque/mi-proyecto"
+              target="_blank"
+            >
+              <img class="imagen-contacto" src="img/github.png" alt="" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nestorduqueduque/"
+              target="_blank"
+            >
+              <img class="imagen-contacto" src="img/linkedin.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">Código Latam</footer>
+  </body>
 </html>
